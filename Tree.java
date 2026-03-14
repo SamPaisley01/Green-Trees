@@ -7,19 +7,19 @@ public class Tree implements Comparable<Tree> {
     private String type;
     private double price;
 
-    public Tree(int treeId, String name, String type, double price) {
+    public Tree(int treeId, String treeName, String type, double price) {
         this.treeId = treeId;
-        this.name = name;
+        this.name = treeName;
         this.type = type;
         this.price = price;
     }
 
-    public String getName() {
-        return name;
+    public String getTreeName() {
+        return treeName;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setName(String treeName) {
+        this.treeName = treeName;
     }
 
     public String getType() {
