@@ -2,24 +2,32 @@ package greentrees;
 
 public class Tree implements Comparable<Tree> {
 
-    private final int treeId;
+    private int treeId;
     private String name;
     private String type;
     private double price;
 
-    public Tree(int treeId, String treeName, String type, double price) {
+    public Tree(int treeId, String name, String type, double price) {
         this.treeId = treeId;
-        this.name = treeName;
+        this.name = name;
         this.type = type;
         this.price = price;
     }
-
-    public String getTreeName() {
-        return treeName;
+    
+    public int getTreeId() {
+       return treeId;
+    }
+    
+    public void setTreeID(int treeID) {
+        this.treeId = treeID;
+    }
+    
+    public String getName() {
+        return name;
     }
 
-    public void setName(String treeName) {
-        this.treeName = treeName;
+    public void setName(String name) {
+        this.name = name;
     }
 
     public String getType() {
