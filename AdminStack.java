@@ -37,8 +37,7 @@ public class AdminStack implements StackInterface {
     public String displayStack() {
         String result = "";
         for(int i = 0; i < theStack.size(); i++) {
-            Volunteer v = (Volunteer) theStack.get(i);
-            result += v.getName() + "\n";
+            result += theStack.get(i) + "\n";
         }
         return result;
     }
