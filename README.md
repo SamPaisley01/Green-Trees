@@ -7,9 +7,9 @@ userid: 1
 password: admin123
 
 user
-userid: 101: 
+userid: 101:
 password: pass123
 
-userid: 101: 
+userid: 102 
 password: pass123
 
